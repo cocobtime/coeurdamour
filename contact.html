@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="/assets/style.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/header.js" type="text/javascript" defer></script>
+    <script src="/assets/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <main>
+      <!-- Your page's content -->
+
+      <div class="main-image">
+        <img src="/assets/y3.jpg" alt="Description of the image" />
+    </div>
+
+      <h1>Contactez Coeur d'Amour</h1>
+      <p>Si vous souhaitez en savoir plus sur notre mission ou si vous avez des questions, n'hésitez pas à nous contacter. Nous sommes toujours ravis de discuter et d'entendre vos idées!</p>
+      
+      <section>
+          <h2>Formulaire de Contact</h2>
+          <form action="/submit" method="post"> <!-- Replace with your server-side form handling URL -->
+              <div>
+                  <label for="name">Nom:</label><p>
+                  <input type="text" id="name" name="name" required><break></break>
+              </div>
+              
+              <div>
+                  <label for="email">E-mail:</label><p></p>
+                  <input type="email" id="email" name="email" required><break></break><p></p>
+              </div>
+
+              <div>
+                  <label for="message">Message:</label><break> <p>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <div>
+                  <input type="submit" value="Envoyer">
+              </div>
+          </form>
+      </section>
+      
+      <section>
+          <h2>Autres Moyens de Nous Contacter</h2>
+          <ul>
+              <li><strong>Téléphone:</strong> +44 789 0940 0376</li><p></p>
+              <li><strong>Adresse:</strong> <br>70 Hhigh Stree, London, UK</li> <br>
+              <li>123 Rue de l'Espoir, Kinshasa, RDC</li><br><p></p>
+              <li><strong>Faceook:</strong>fb.com/coeurdamour <br>
+              <li><strong>E-mail:</strong> contact@coeurdamour.org</li>
+          </ul>
+      </section>
+
+
+
+
+
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>
