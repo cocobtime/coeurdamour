@@ -45,3 +45,9 @@ developpement
 
 
 sudo nano /etc/httpd/conf.d/kapumbu.conf
+
+
+git status
+git add .
+git push origin main
+

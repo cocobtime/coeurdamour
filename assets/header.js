@@ -82,6 +82,7 @@ headerTemplate.innerHTML = `
   
         <li><a href="mission.html">Mission</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="donation.html">Donation</a></li>
       </ul>
     </nav>
   </header>
