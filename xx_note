@@ -49,5 +49,6 @@ sudo nano /etc/httpd/conf.d/kapumbu.conf
 
 git status
 git add .
+git commit -m "Your commit message here"
 git push origin main
 
