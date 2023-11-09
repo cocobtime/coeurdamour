@@ -60,6 +60,8 @@ footerTemplate.innerHTML = `
     123 Rue de l'Espoir, Kinshasa, RDC<br><br>
     All rights reserved to Coeur D'amour 2013
 
+    <h2>Llove heart </2>
+    
     
   </p>
 </div>
